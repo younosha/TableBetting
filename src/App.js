@@ -7,8 +7,8 @@ import { Context } from './context';
 
 export const App = () => {
   const [form, setForm] = useState({
-    numberRow: '3',
-    numberCol: '3'
+    numberRow: '',
+    numberCol: ''
   })
     return (
       <Context.Provider value={{form, setForm}}>
