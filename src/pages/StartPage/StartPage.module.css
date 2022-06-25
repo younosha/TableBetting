@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    font-family: sans-serif;
+}
+.title {
+    color: rgb(25, 118, 210);
+    margin-bottom: 20px;
+}
+.field {
+    margin-bottom: 20px !important;
+    width: 100%;
+}
+.link {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(25, 118, 210);
+    color: white;
+    text-decoration: none;
+}

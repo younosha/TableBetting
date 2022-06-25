@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+}
+.checkForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: -80px;
+}
+.field {
+    margin-bottom: 20px !important;
+    width: 100%;
+}
+.inputTable {
+    border: none;
+    outline: none;
+}
